@@ -1,0 +1,32 @@
+.line{
+  text-align:center;
+  line-height:50px;
+  border-radius: 6px;
+  display: flex;
+  /* border: 1px solid; */
+  /* border-radius: 9px; */
+}
+
+.block{
+  border: 1px solid;
+  border-radius: 9px;
+  margin: 1px;
+}
+.block:hover{
+  /* opacity: 0.2; */
+  background-color: #000;
+}
+button.reset{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: #248;
+  color: #fff;
+  border-style: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+button.reset:hover{
+  background-color: #24d;
+  color: #fff;
+}
